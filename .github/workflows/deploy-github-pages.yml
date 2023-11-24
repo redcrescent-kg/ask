@@ -23,16 +23,19 @@ env:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: ''
+  TXT_APP_NAME: 'Ask Kyrgyz RC'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: ''
+  TXT_APP_LOGO_URL: 'https://www.redcrescent.kg/ru/simai.data/image/favicon/favicon.png'
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: ''
+  TXT_MAIN_PAGE_HEADER: '...'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
+    ...\n
     \n
-    \n
+    Тилиңизди тандаңыз:\n
+    Выберите ваш язык:\n
+    Select your language:\n
   #
   # An (optional) notice on the bottom of the screen, can be overwritten by the sheet.
   # Will override the (optional) bottom-right "Contact"-buttons from the sheet.
@@ -44,7 +47,7 @@ env:
   # This Sentence will be followd by a link to the "Contact-URL" set below
   TXT_ERROR_MESSAGE: 'Reach out to us at: '
   # Provide a URL that has contact-information on it, or a `mailto:contact@example.org`-URL
-  TXT_ERROR_CONTACT_URL: 'https://github.com/${{ github.repository }}'
+  TXT_ERROR_CONTACT_URL: 'https://www.redcrescent.kg/ru/contact/'
   # Call to action on a link that will reload the current page
   TXT_ERROR_RETRY: 'Try again?'
   #
@@ -61,13 +64,19 @@ env:
   #
   # The URL-part(s) to identify the region
   REGIONS: >-
-    info
+    ky,
+    ru,
+    en,
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    Information
+    Кыргызча,
+    Русский,
+    English,
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    1SJepEBCFjhIfRCzS9hNhzBlG6JsT2VydPM711ARwo3o,
+    1JGq0QlMAEey8PCM_NGTXhQ1gJS563YjGH61h19vEBJo,
+    1SVSn6MJK7krCVE7ltYG-K5bQl0AUbexP-zj_20W1DNQ,
 
 # #############################################################################
 #
