@@ -140,7 +140,7 @@ jobs:
 
       - name: Build
         working-directory: 'helpful-information'
-        run: 'npm run build:production -- --output-path=../www --base-href=/${GITHUB_REPOSITORY#*/}/'
+        run: 'npm run build:production -- --output-path=../www'
         env:
           # See all variables: https://github.com/rodekruis/helpful-information/blob/main/.env.example
           NG_PRODUCTION: 'true'
